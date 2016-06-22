@@ -1,0 +1,36 @@
+{
+  "name": "active-cache-babel-register",
+  "version": "1.0.0",
+  "description": "alternative babel-register improves performance and supports multi-process",
+  "main": "index.js",
+  "scripts": {
+    "test": "eater"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yosuke-furukawa/active-cache-babel-register.git"
+  },
+  "keywords": [
+    "babel",
+    "babel-register",
+    "cache",
+    "multi-process"
+  ],
+  "author": "yosuke-furukawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yosuke-furukawa/active-cache-babel-register/issues"
+  },
+  "homepage": "https://github.com/yosuke-furukawa/active-cache-babel-register#readme",
+  "dependencies": {
+    "babel-core": "^6.10.4",
+    "cacha": "^1.0.3",
+    "levelup": "^1.3.2",
+    "lodash": "^4.13.1",
+    "md5": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "eater": "^3.0.0-0"
+  }
+}
