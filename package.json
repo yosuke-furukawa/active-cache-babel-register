@@ -1,6 +1,6 @@
 {
   "name": "active-cache-babel-register",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "alternative babel-register improves performance and supports multi-process",
   "main": "index.js",
   "scripts": {
@@ -25,9 +25,12 @@
   "dependencies": {
     "babel-core": "^6.10.4",
     "cacha": "^1.0.3",
+    "home-or-tmp": "^2.0.0",
     "levelup": "^1.3.2",
     "lodash": "^4.13.1",
-    "md5": "^2.1.0"
+    "md5": "^2.1.0",
+    "mkdirp": "^0.5.1",
+    "path-exists": "^3.0.0"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.9.0",
