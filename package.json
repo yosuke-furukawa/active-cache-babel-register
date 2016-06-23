@@ -1,6 +1,6 @@
 {
   "name": "active-cache-babel-register",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "alternative babel-register improves performance and supports multi-process",
   "main": "lib/node.js",
   "scripts": {
