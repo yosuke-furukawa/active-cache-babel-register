@@ -21,3 +21,12 @@ Total duration time: 18170ms
 active-cache-babel-register
 Total duration time: 5122ms
 ```
+
+## Usage
+
+usage is almost same to `babel-register`.
+
+```
+$ npm install actice-cache-babel-register
+$ node --require active-cache-babel-register foo.js
+```
