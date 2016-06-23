@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/yosuke-furukawa/active-cache-babel-register#readme",
   "peerDependencies": {
-    "babel-core": "^6.10.4"
+    "babel-core": "^6"
   },
   "dependencies": {
     "cacha": "^1.0.3",
