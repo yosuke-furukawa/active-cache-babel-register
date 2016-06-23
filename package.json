@@ -4,7 +4,11 @@
   "description": "alternative babel-register improves performance and supports multi-process",
   "main": "lib/node.js",
   "scripts": {
-    "test": "eater"
+    "test": "eater",
+    "bench": "eater benchmark/babel-register.js && eater benchmark/active-cache-babel-register.js",
+    "cov": "nyc npm test",
+    "report": "nyc report --reporter=text-lcov",
+    "coveralls": "npm-run-all cov report | coveralls"
   },
   "repository": {
     "type": "git",
@@ -22,9 +26,12 @@
     "url": "https://github.com/yosuke-furukawa/active-cache-babel-register/issues"
   },
   "homepage": "https://github.com/yosuke-furukawa/active-cache-babel-register#readme",
+  "peerDependencies": {
+    "babel-core": "^6.10.4"
+  },
   "dependencies": {
-    "babel-core": "^6.10.4",
     "cacha": "^1.0.3",
+    "del": "^2.2.1",
     "home-or-tmp": "^2.0.0",
     "levelup": "^1.3.2",
     "lodash": "^4.13.1",
@@ -35,6 +42,11 @@
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.9.0",
-    "eater": "^3.0.0-0"
+    "babel-register": "^6.9.0",
+    "coveralls": "^2.11.9",
+    "eater": "^3.0.0-0",
+    "must-call": "^1.0.0",
+    "npm-run-all": "^2.2.0",
+    "nyc": "^6.6.1"
   }
 }
