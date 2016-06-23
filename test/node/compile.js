@@ -8,3 +8,7 @@ require('../fixtures/foo');
 test('foo', () => {
   require('../fixtures/foo');
 })
+
+test('bar', () => {
+  require('../fixtures/bar');
+})
