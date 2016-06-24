@@ -6,6 +6,7 @@ require('../test/fixtures/foo');
 require('../test/fixtures/bar');
 require('../test/fixtures/baz');
 require('../test/fixtures/qux');
+
 register();
 
 test('foo', () => {
@@ -36,31 +37,58 @@ test('qux', () => {
   require('../test/fixtures/qux');
 })
 
-test('foo', () => {
+test('foo2', () => {
   require('../test/fixtures/foo');
   require('../test/fixtures/bar');
   require('../test/fixtures/baz');
   require('../test/fixtures/qux');
 })
 
-test('bar', () => {
+test('bar2', () => {
   require('../test/fixtures/foo');
   require('../test/fixtures/bar');
   require('../test/fixtures/baz');
   require('../test/fixtures/qux');
 })
 
-test('baz', () => {
+test('baz2', () => {
   require('../test/fixtures/foo');
   require('../test/fixtures/bar');
   require('../test/fixtures/baz');
   require('../test/fixtures/qux');
 })
 
-test('qux', () => {
+test('qux2', () => {
   require('../test/fixtures/foo');
   require('../test/fixtures/bar');
   require('../test/fixtures/baz');
   require('../test/fixtures/qux');
 })
 
+test('foo3', () => {
+  require('../test/fixtures/foo');
+  require('../test/fixtures/bar');
+  require('../test/fixtures/baz');
+  require('../test/fixtures/qux');
+})
+
+test('bar3', () => {
+  require('../test/fixtures/foo');
+  require('../test/fixtures/bar');
+  require('../test/fixtures/baz');
+  require('../test/fixtures/qux');
+})
+
+test('baz3', () => {
+  require('../test/fixtures/foo');
+  require('../test/fixtures/bar');
+  require('../test/fixtures/baz');
+  require('../test/fixtures/qux');
+})
+
+test('qux3', () => {
+  require('../test/fixtures/foo');
+  require('../test/fixtures/bar');
+  require('../test/fixtures/baz');
+  require('../test/fixtures/qux');
+})
